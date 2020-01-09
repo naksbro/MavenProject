@@ -2,10 +2,6 @@ package io.techleadacademy;
 
 import com.github.javafaker.Faker;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
 public class TestData {
     Faker fake = new Faker();
 
