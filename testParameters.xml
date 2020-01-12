@@ -1,0 +1,19 @@
+<suite name = "parameters test" time-out = "10000">
+    <test name = "Test01">
+        <parameter name = "username" value= "Your name"/>
+        <parameter name = "password" value = "123456"/>
+        <groups>
+            <run>
+                <include name = "smoke test"/>
+                <include name = "regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "io.techleadacademy.testNGJan1120.TestTagsKuba">
+                <methods>
+                    <exclude name = "logInPerformanceTest2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

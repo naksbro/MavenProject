@@ -1,0 +1,17 @@
+<suite name = "Test suite">
+    <test name = "Test 1" enabled = "true">
+        <classes>
+            <class name = "io.techleadacademy.testNGJan1120.TestTags">
+                <methods>
+                    <exclude name = "logInPerformanceTest2"/>
+                </methods>
+            </class>
+            <class name ="io.techleadacademy.TestingTestNG"/>
+        </classes>
+    </test>
+    <test name = "Smoke Test" enabled="false">
+        <packages>
+            <package name = "io.techleadacademy.testNGJan1120"/>
+        </packages>
+    </test>
+</suite>
