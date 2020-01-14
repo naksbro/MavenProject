@@ -27,7 +27,7 @@ public class Task1 {
     public void _001verifyTitle () {
         String actualTitle = driver.getTitle();
         String expectedTitle = "PHPTRAVELS | Travel Technology Partner";
-        Assert.assertEquals(actualTitle, expectedTitle);
+        Assert.assertEquals(actualTitle, expectedTitle, "Actual: "+actualTitle+" | Expected: "+expectedTitle);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class Task1 {
         driver.findElement(By.xpath("(//button[@type='submit'])[1]")).click();
 
         String profilePage = driver.getTitle();
-        Assert.assertNotEquals(signUpPage, profilePage);
+        Assert.assertNotEquals(signUpPage, profilePage, "Previous Title: "+signUpPage+" | Current Title: "+profilePage);
     }
 
     @Test
@@ -53,13 +53,13 @@ public class Task1 {
         methods.sleep(5000);
         String actualTitle = driver.getTitle();
         String expectedTitle = "My Account";
-        Assert.assertEquals(actualTitle, expectedTitle);
+        Assert.assertEquals(actualTitle, expectedTitle, "Actual: "+actualTitle+" | Expected: "+expectedTitle);
 
         String actualHi = driver.findElement(By.xpath("//h3[@class='text-align-left']")).getText();
         String expectedHi = "Hi, "+firstName+" "+lastName;
-        Assert.assertTrue(actualHi.equals(expectedHi));
+        Assert.assertTrue(actualHi.equals(expectedHi), "Actual: "+actualHi+" | Expected: "+expectedHi);
 
         String actualDate = driver.findElement(By.xpath("//span[@class='h4']")).getText();
-        Assert.assertEquals(actualDate, today);
+        Assert.assertEquals(actualDate, today,"Actual: "+actualDate+" | Expected: "+today);
     }
 }
