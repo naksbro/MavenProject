@@ -1,7 +1,6 @@
-package io.techleadacademy.testNGJan1120;
+package io.techleadacademy.zzStuff.testNGJan1120;
 
-import com.google.common.base.Verify;
-import io.techleadacademy.ReusableMethods;
+import io.techleadacademy.zzStuff.UtilityMethods;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.testng.Assert;
@@ -10,7 +9,6 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import javax.annotation.ParametersAreNonnullByDefault;
 import java.lang.reflect.Method;
 import java.util.NoSuchElementException;
 
@@ -66,7 +64,7 @@ public class TestTags {
     @Test(invocationCount = 3, invocationTimeOut = 5000) // runs specified test multiple times
     public void logInPerformanceTest () {
         System.out.println("Checking log in time");
-        new ReusableMethods().sleep(1000);
+        new UtilityMethods().sleep(1000);
     }
 
     @Test(invocationCount = 10, skipFailedInvocations = true)

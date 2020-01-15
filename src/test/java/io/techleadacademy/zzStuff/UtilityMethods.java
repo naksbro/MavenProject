@@ -1,4 +1,4 @@
-package io.techleadacademy;
+package io.techleadacademy.zzStuff;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class ReusableMethods {
+public class UtilityMethods {
     public void sleep(int milliSeconds){
         try{
             Thread.sleep(milliSeconds);
@@ -27,7 +27,7 @@ public class ReusableMethods {
         explicitWait.until(ExpectedConditions.visibilityOfAllElements(list));
     }
 
-    public WebDriver webDriverSetUp (String url) {
+    public WebDriver webDriverSetup (String url) {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

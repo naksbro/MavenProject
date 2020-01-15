@@ -1,7 +1,7 @@
-package Jan12;
+package io.techleadacademy.zzStuff.Jan12;
 
 import com.github.javafaker.Faker;
-import io.techleadacademy.ReusableMethods;
+import io.techleadacademy.zzStuff.UtilityMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -11,8 +11,8 @@ import java.time.format.DateTimeFormatter;
 
 public class Task1 {
 
-    ReusableMethods methods = new ReusableMethods();
-    WebDriver driver = methods.webDriverSetUp("https://www.phptravels.net/index.php");
+    UtilityMethods utils = new UtilityMethods();
+    WebDriver driver = utils.webDriverSetup("https://www.phptravels.net/index.php");
     Faker faker = new Faker();
     String firstName = faker.name().firstName();
     String lastName = faker.name().lastName();
@@ -50,14 +50,14 @@ public class Task1 {
 
     @Test
     public void _003verifyProfilePage () {
-        methods.sleep(5000);
+        utils.sleep(5000);
         String actualTitle = driver.getTitle();
         String expectedTitle = "My Account";
         Assert.assertEquals(actualTitle, expectedTitle, "Actual: "+actualTitle+" | Expected: "+expectedTitle);
 
         String actualHi = driver.findElement(By.xpath("//h3[@class='text-align-left']")).getText();
         String expectedHi = "Hi, "+firstName+" "+lastName;
-        Assert.assertTrue(actualHi.equals(expectedHi), "Actual: "+actualHi+" | Expected: "+expectedHi);
+        Assert.assertEquals(expectedHi, actualHi, "Actual: " + actualHi + " | Expected: " + expectedHi);
 
         String actualDate = driver.findElement(By.xpath("//span[@class='h4']")).getText();
         Assert.assertEquals(actualDate, today,"Actual: "+actualDate+" | Expected: "+today);

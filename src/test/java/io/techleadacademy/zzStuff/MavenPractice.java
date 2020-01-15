@@ -1,4 +1,4 @@
-package io.techleadacademy;
+package io.techleadacademy.zzStuff;
 
 public class MavenPractice {
     public static void main(String[] args) {

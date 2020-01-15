@@ -1,4 +1,4 @@
-package io.techleadacademy;
+package io.techleadacademy.zzStuff;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 
 public class OrangeNewsKuba {
 
-    ReusableMethods methods = new ReusableMethods();
+    UtilityMethods methods = new UtilityMethods();
 
     @Test
     public void verifyPageTitle_orangeHRM() {

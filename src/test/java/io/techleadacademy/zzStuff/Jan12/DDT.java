@@ -1,4 +1,4 @@
-package Jan12;
+package io.techleadacademy.zzStuff.Jan12;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;

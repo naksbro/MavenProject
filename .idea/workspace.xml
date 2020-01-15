@@ -2,26 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffa6047c-da4d-450e-a833-5747fccc380c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/TestingTestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/orangeHRM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/pages/MyAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/pages/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/tests/HomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/tests/MyAccountPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/tests/RegisterPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/TestingTestNG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MavenProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/MavenPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/MavenPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/TestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/MavenPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/MavenPractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/TestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/TestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Jan12/DDT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/Jan12/DDT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Jan12/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/Jan12/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/MavenPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/MavenPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/OrangeNewsKuba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/OrangeNewsKuba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/UtilityMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/TestingTestNG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/orangeNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/orangeNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/testNGJan1120/TestTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/testNGJan1120/TestTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/testNGJan1120/TestTagsKuba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/testNGJan1120/TestTagsKuba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Jan12/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Jan12/Task1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/OrangeNewsKuba.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/OrangeNewsKuba.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/ReusableMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/testNGJan1120/TestTags.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/testNGJan1120/TestTags.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/testNGJan1120/TestTagsKuba.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/testNGJan1120/TestTagsKuba.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1VyxBOXjCHHsmPMnvEs9HqtVHEL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -53,25 +60,31 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
-  <component name="RunManager" selected="TestNG.orangeHRM.projectDay">
-    <configuration name="TestingTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.techleadacademy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Task1 (1)">
+    <configuration name="Task1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.techleadacademy.*" />
+          <option name="PATTERN" value="io.techleadacademy.zzStuff.Jan12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.techleadacademy" />
-      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.TestingTestNG" />
+      <option name="PACKAGE_NAME" value="Jan12" />
+      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.zzStuff.Jan12.Task1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -79,16 +92,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="orangeHRM" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.techleadacademy.*" />
+          <option name="PATTERN" value="io.techleadacademy.zzStuff.Jan12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.techleadacademy" />
-      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.orangeHRM" />
+      <option name="PACKAGE_NAME" value="Jan12" />
+      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.zzStuff.Jan12.Task1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -96,7 +109,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="orangeHRM.projectDay (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1._001verifyTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.techleadacademy.zzStuff.Jan12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Jan12" />
+      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.zzStuff.Jan12.Task1" />
+      <option name="METHOD_NAME" value="_001verifyTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1._002verifySignUp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.techleadacademy.zzStuff.Jan12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Jan12" />
+      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.zzStuff.Jan12.Task1" />
+      <option name="METHOD_NAME" value="_002verifySignUp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1._003verifyProfilePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.techleadacademy.zzStuff.Jan12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Jan12" />
+      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.zzStuff.Jan12.Task1" />
+      <option name="METHOD_NAME" value="_003verifyProfilePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="orangeNews.projectDay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenProject" />
       <extension name="coverage">
         <pattern>
@@ -105,7 +172,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.techleadacademy" />
-      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.orangeHRM" />
+      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.orangeNews" />
       <option name="METHOD_NAME" value="projectDay" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -114,49 +181,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="orangeHRM.projectDay (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.techleadacademy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.techleadacademy" />
-      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.orangeHRM" />
-      <option name="METHOD_NAME" value="projectDay" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="orangeHRM.projectDay" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.techleadacademy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.techleadacademy" />
-      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.orangeHRM" />
-      <option name="METHOD_NAME" value="projectDay" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.Task1" />
+      <item itemvalue="TestNG.Task1._002verifySignUp" />
+      <item itemvalue="TestNG.Task1._003verifyProfilePage" />
+      <item itemvalue="TestNG.Task1._001verifyTitle" />
+      <item itemvalue="TestNG.Task1 (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.orangeHRM.projectDay" />
-        <item itemvalue="TestNG.orangeHRM" />
-        <item itemvalue="TestNG.orangeHRM.projectDay (2)" />
-        <item itemvalue="TestNG.orangeHRM.projectDay (1)" />
-        <item itemvalue="TestNG.TestingTestNG" />
+        <item itemvalue="TestNG.Task1 (1)" />
+        <item itemvalue="TestNG.Task1" />
+        <item itemvalue="TestNG.Task1._003verifyProfilePage" />
+        <item itemvalue="TestNG.Task1._001verifyTitle" />
+        <item itemvalue="TestNG.Task1._002verifySignUp" />
       </list>
     </recent_temporary>
   </component>
@@ -185,26 +223,61 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="229" key="GridCell.Tab.0.bottom" timestamp="1578471989195">
+    <state x="240" y="77" key="#Plugins" timestamp="1578957170728">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578471989195" />
-    <state width="1238" height="229" key="GridCell.Tab.0.center" timestamp="1578471989194">
+    <state x="240" y="77" key="#Plugins/0.23.1280.777@0.23.1280.777" timestamp="1578957170728" />
+    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578843673993">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578471989194" />
-    <state width="1238" height="229" key="GridCell.Tab.0.left" timestamp="1578471989194">
+    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1578843673993" />
+    <state x="100" y="123" width="1080" height="577" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578948386618">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578471989194" />
-    <state width="1238" height="229" key="GridCell.Tab.0.right" timestamp="1578471989195">
+    <state x="100" y="123" width="1080" height="577" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.777@0.23.1280.777" timestamp="1578948386618" />
+    <state x="251" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579051924186">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578471989195" />
-    <state x="128" y="23" key="SettingsEditor" timestamp="1578250055485">
+    <state x="251" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.777@0.23.1280.777" timestamp="1579051924186" />
+    <state x="401" y="261" width="477" height="344" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578769503666">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="128" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1578250055485" />
+    <state x="401" y="261" width="477" height="344" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1280.777@0.23.1280.777" timestamp="1578769503666" />
+    <state x="401" y="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1579051566217">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="401" y="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1280.777@0.23.1280.777" timestamp="1579051566217" />
+    <state width="1238" height="209" key="GridCell.Tab.0.bottom" timestamp="1579048459138">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="209" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579048459138" />
+    <state width="1238" height="209" key="GridCell.Tab.0.center" timestamp="1579048459137">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="209" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579048459137" />
+    <state width="1238" height="209" key="GridCell.Tab.0.left" timestamp="1579048459137">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="209" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579048459137" />
+    <state width="1238" height="209" key="GridCell.Tab.0.right" timestamp="1579048459138">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="209" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579048459138" />
+    <state x="178" y="73" key="Maven.ArtifactSearchDialog" timestamp="1578841574945">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="178" y="73" key="Maven.ArtifactSearchDialog/0.23.1280.777@0.23.1280.777" timestamp="1578841574945" />
+    <state x="128" y="23" key="SettingsEditor" timestamp="1579056848809">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="128" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1579056848809" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1578957161019">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1578957161019" />
   </component>
 </project>

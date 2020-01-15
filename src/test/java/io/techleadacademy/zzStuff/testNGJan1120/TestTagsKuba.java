@@ -1,6 +1,6 @@
-package io.techleadacademy.testNGJan1120;
+package io.techleadacademy.zzStuff.testNGJan1120;
 
-import io.techleadacademy.ReusableMethods;
+import io.techleadacademy.zzStuff.UtilityMethods;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.testng.Assert;
@@ -59,7 +59,7 @@ public class TestTagsKuba {
     @Test(invocationCount = 2, invocationTimeOut = 3000, groups = {"regression"})
     public void logInPerformanceTest2(){
         System.out.println("Checking log in time");
-        new ReusableMethods().sleep(1000);
+        new UtilityMethods().sleep(1000);
     }
     @Test(invocationCount = 3, skipFailedInvocations = true)
     public void logInPerformanceTest3(){
