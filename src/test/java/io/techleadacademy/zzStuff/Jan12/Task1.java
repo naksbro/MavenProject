@@ -15,7 +15,7 @@ public class Task1 {
     UtilityMethods utils = new UtilityMethods();
     WebDriver driver = utils.webDriverSetup("https://www.phptravels.net/index.php");
     Faker faker = new Faker();
-    String[] fakes = {faker.name().firstName(), faker.name().lastName(), faker.phoneNumber().cellPhone(), faker.internet().emailAddress(), "drowssap", "drowssap"};
+    String[] fakes = {faker.name().firstName(), faker.name().lastName(), faker.phoneNumber().cellPhone(), faker.internet().emailAddress(), faker.internet().password()};
     LocalDate date = LocalDate.now();
     DateTimeFormatter df = DateTimeFormatter.ofPattern("dd MMMM yyyy");
     String today = df.format(date);
@@ -35,7 +35,8 @@ public class Task1 {
         driver.findElement(By.xpath("//a[@class='dropdown-item tr']")).click();
         List<WebElement> inputFields = driver.findElements(By.xpath("//div[@class='form-group']/input"));
         for (int i = 0; i < inputFields.size(); i++) {
-            inputFields.get(i).sendKeys(fakes[i]);
+            if (i == inputFields.size()-1) inputFields.get(i).sendKeys(fakes[i-1]);
+            else inputFields.get(i).sendKeys(fakes[i]);
         }
         driver.findElement(By.xpath("(//button[@type='submit'])[1]")).click();
 
