@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffa6047c-da4d-450e-a833-5747fccc380c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/pages/MyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/tests/HomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/tests/MyAccountPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/tests/RegisterPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/TestingTestNG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Jan12/DDT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/Jan12/DDT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Jan12/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/Jan12/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/MavenPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/MavenPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/OrangeNewsKuba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/OrangeNewsKuba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/UtilityMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/TestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/TestingTestNG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/orangeNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/orangeNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/testNGJan1120/TestTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/testNGJan1120/TestTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/testNGJan1120/TestTagsKuba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/testNGJan1120/TestTagsKuba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Jan12/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Jan12/Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/OrangeNewsKuba.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/OrangeNewsKuba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/ReusableMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/testNGJan1120/TestTags.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/testNGJan1120/TestTags.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/testNGJan1120/TestTagsKuba.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/testNGJan1120/TestTagsKuba.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
