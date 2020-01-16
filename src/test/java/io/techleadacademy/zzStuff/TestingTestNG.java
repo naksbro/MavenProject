@@ -1,4 +1,4 @@
-package io.techleadacademy;
+package io.techleadacademy.zzStuff;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

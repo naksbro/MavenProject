@@ -9,7 +9,7 @@
             </run>
         </groups>
         <classes>
-            <class name = "io.techleadacademy.testNGJan1120.TestTagsKuba">
+            <class name = "io.techleadacademy.zzStuff.testNGJan1120.TestTagsKuba">
                 <methods>
                     <exclude name = "logInPerformanceTest2"/>
                 </methods>
