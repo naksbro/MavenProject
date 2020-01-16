@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ffa6047c-da4d-450e-a833-5747fccc380c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/Jan12/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/techleadacademy/zzStuff/Jan12/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/zzStuff/Jan12/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/techleadacademy/zzStuff/Jan12/Task1.class" afterDir="false" />
+>>>>>>> 6d7051e48ee13af25686224aa4d3d4c91cfdad0f
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +56,37 @@
       <recent name="io.techleadacademy" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Task1 (1)">
-    <configuration name="Task1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Task1">
+    <configuration name="C:/Users/madma/IdeaProjects/TLAMaven/MavenProject/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/madma/IdeaProjects/TLAMaven/MavenProject/testParameters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testParameters.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrangeNewsKuba" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.techleadacademy.zzStuff.Jan12.*" />
+          <option name="PATTERN" value="io.techleadacademy.zzStuff.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Jan12" />
-      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.zzStuff.Jan12.Task1" />
+      <option name="PACKAGE_NAME" value="io.techleadacademy.zzStuff" />
+      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.zzStuff.OrangeNewsKuba" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -86,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1._001verifyTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenProject" />
       <extension name="coverage">
         <pattern>
@@ -96,44 +121,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Jan12" />
       <option name="MAIN_CLASS_NAME" value="io.techleadacademy.zzStuff.Jan12.Task1" />
-      <option name="METHOD_NAME" value="_001verifyTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1._002verifySignUp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.techleadacademy.zzStuff.Jan12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Jan12" />
-      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.zzStuff.Jan12.Task1" />
-      <option name="METHOD_NAME" value="_002verifySignUp" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1._003verifyProfilePage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.techleadacademy.zzStuff.Jan12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Jan12" />
-      <option name="MAIN_CLASS_NAME" value="io.techleadacademy.zzStuff.Jan12.Task1" />
-      <option name="METHOD_NAME" value="_003verifyProfilePage" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -159,19 +147,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.orangeNews.projectDay" />
       <item itemvalue="TestNG.Task1" />
-      <item itemvalue="TestNG.Task1._002verifySignUp" />
-      <item itemvalue="TestNG.Task1._003verifyProfilePage" />
-      <item itemvalue="TestNG.Task1._001verifyTitle" />
-      <item itemvalue="TestNG.Task1 (1)" />
+      <item itemvalue="TestNG.C:/Users/madma/IdeaProjects/TLAMaven/MavenProject/testNG.xml" />
+      <item itemvalue="TestNG.C:/Users/madma/IdeaProjects/TLAMaven/MavenProject/testParameters.xml" />
+      <item itemvalue="TestNG.OrangeNewsKuba" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Task1 (1)" />
         <item itemvalue="TestNG.Task1" />
-        <item itemvalue="TestNG.Task1._003verifyProfilePage" />
-        <item itemvalue="TestNG.Task1._001verifyTitle" />
-        <item itemvalue="TestNG.Task1._002verifySignUp" />
+        <item itemvalue="TestNG.OrangeNewsKuba" />
+        <item itemvalue="TestNG.C:/Users/madma/IdeaProjects/TLAMaven/MavenProject/testNG.xml" />
+        <item itemvalue="TestNG.C:/Users/madma/IdeaProjects/TLAMaven/MavenProject/testParameters.xml" />
+        <item itemvalue="TestNG.orangeNews.projectDay" />
       </list>
     </recent_temporary>
   </component>
@@ -216,9 +204,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="100" y="123" width="1080" height="577" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.777@0.23.1280.777" timestamp="1578948386618" />
-    <state x="251" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579051924186">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="251" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579201869481">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="251" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1579201869481" />
     <state x="251" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.777@0.23.1280.777" timestamp="1579051924186" />
     <state x="401" y="261" width="477" height="344" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578769503666">
       <screen x="0" y="23" width="1280" height="777" />
@@ -228,30 +217,39 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="401" y="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1280.777@0.23.1280.777" timestamp="1579051566217" />
-    <state width="1238" height="209" key="GridCell.Tab.0.bottom" timestamp="1579048459138">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1579205863890">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1579205863890" />
     <state width="1238" height="209" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579048459138" />
-    <state width="1238" height="209" key="GridCell.Tab.0.center" timestamp="1579048459137">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1579205863890">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1579205863890" />
     <state width="1238" height="209" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579048459137" />
-    <state width="1238" height="209" key="GridCell.Tab.0.left" timestamp="1579048459137">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1579205863890">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1579205863890" />
     <state width="1238" height="209" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579048459137" />
-    <state width="1238" height="209" key="GridCell.Tab.0.right" timestamp="1579048459138">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1579205863890">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1579205863890" />
     <state width="1238" height="209" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579048459138" />
     <state x="178" y="73" key="Maven.ArtifactSearchDialog" timestamp="1578841574945">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="178" y="73" key="Maven.ArtifactSearchDialog/0.23.1280.777@0.23.1280.777" timestamp="1578841574945" />
-    <state x="128" y="23" key="SettingsEditor" timestamp="1579056848809">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="128" y="0" key="SettingsEditor" timestamp="1579202307722">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="128" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1579202307722" />
     <state x="128" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1579056848809" />
+    <state x="259" y="46" width="763" height="628" key="find.popup" timestamp="1579204146296">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="259" y="46" width="763" height="628" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1579204146296" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1578957161019">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

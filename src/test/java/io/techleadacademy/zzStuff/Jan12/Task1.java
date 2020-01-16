@@ -4,21 +4,18 @@ import com.github.javafaker.Faker;
 import io.techleadacademy.zzStuff.UtilityMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 
 public class Task1 {
-
     UtilityMethods utils = new UtilityMethods();
     WebDriver driver = utils.webDriverSetup("https://www.phptravels.net/index.php");
     Faker faker = new Faker();
-    String firstName = faker.name().firstName();
-    String lastName = faker.name().lastName();
-    String phnNum = faker.phoneNumber().cellPhone();
-    String email = firstName+lastName+"@gmail.com";
-    String password = "drowssap";
+    String[] fakes = {faker.name().firstName(), faker.name().lastName(), faker.phoneNumber().cellPhone(), faker.internet().emailAddress(), faker.internet().password()};
     LocalDate date = LocalDate.now();
     DateTimeFormatter df = DateTimeFormatter.ofPattern("dd MMMM yyyy");
     String today = df.format(date);
@@ -36,12 +33,11 @@ public class Task1 {
 
         driver.findElement(By.xpath("(//a[@id='dropdownCurrency'])[2]")).click();
         driver.findElement(By.xpath("//a[@class='dropdown-item tr']")).click();
-        driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys(firstName);
-        driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys(lastName);
-        driver.findElement(By.xpath("//input[@name='phone']")).sendKeys(phnNum);
-        driver.findElement(By.xpath("//input[@name='email']")).sendKeys(email);
-        driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
-        driver.findElement(By.xpath("//input[@name='confirmpassword']")).sendKeys(password);
+        List<WebElement> inputFields = driver.findElements(By.xpath("//div[@class='form-group']/input"));
+        for (int i = 0; i < inputFields.size(); i++) {
+            if (i == inputFields.size()-1) inputFields.get(i).sendKeys(fakes[i-1]);
+            else inputFields.get(i).sendKeys(fakes[i]);
+        }
         driver.findElement(By.xpath("(//button[@type='submit'])[1]")).click();
 
         String profilePage = driver.getTitle();
@@ -56,7 +52,7 @@ public class Task1 {
         Assert.assertEquals(actualTitle, expectedTitle, "Actual: "+actualTitle+" | Expected: "+expectedTitle);
 
         String actualHi = driver.findElement(By.xpath("//h3[@class='text-align-left']")).getText();
-        String expectedHi = "Hi, "+firstName+" "+lastName;
+        String expectedHi = "Hi, "+fakes[0]+" "+fakes[1];
         Assert.assertEquals(expectedHi, actualHi, "Actual: " + actualHi + " | Expected: " + expectedHi);
 
         String actualDate = driver.findElement(By.xpath("//span[@class='h4']")).getText();
