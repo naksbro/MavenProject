@@ -1,6 +1,6 @@
 package io.techleadacademy.zzStuff.testNGJan1120;
 
-import io.techleadacademy.zzStuff.UtilityMethods;
+import io.techleadacademy.util.UtilityMethods;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.testng.Assert;

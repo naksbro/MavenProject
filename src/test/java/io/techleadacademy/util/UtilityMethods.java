@@ -1,4 +1,4 @@
-package io.techleadacademy.zzStuff;
+package io.techleadacademy.util;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

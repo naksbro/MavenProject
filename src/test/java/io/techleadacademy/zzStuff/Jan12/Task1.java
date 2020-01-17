@@ -1,7 +1,7 @@
 package io.techleadacademy.zzStuff.Jan12;
 
 import com.github.javafaker.Faker;
-import io.techleadacademy.zzStuff.UtilityMethods;
+import io.techleadacademy.util.UtilityMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
