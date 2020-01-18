@@ -1,0 +1,7 @@
+<suite name = "PHP suite">
+    <test name = "Test 1">
+        <packages>
+            <package name = "io.techleadacademy.tests"/>
+        </packages>
+    </test>
+</suite>

@@ -15,7 +15,8 @@ public class Task1 {
     UtilityMethods utils = new UtilityMethods();
     WebDriver driver = utils.webDriverSetup("https://www.phptravels.net/index.php");
     Faker faker = new Faker();
-    String[] fakes = {faker.name().firstName(), faker.name().lastName(), faker.phoneNumber().cellPhone(), faker.internet().emailAddress(), faker.internet().password()};
+    String[] fakes = {faker.name().firstName(), faker.name().lastName(), faker.phoneNumber().cellPhone(),
+            faker.internet().emailAddress(), faker.internet().password()};
     LocalDate date = LocalDate.now();
     DateTimeFormatter df = DateTimeFormatter.ofPattern("dd MMMM yyyy");
     String today = df.format(date);
