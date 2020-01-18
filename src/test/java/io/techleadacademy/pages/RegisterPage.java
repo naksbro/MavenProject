@@ -8,8 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class RegisterPage extends TestBase {
+public class RegisterPage extends BasePage {
     public RegisterPage () {
+        super();
         PageFactory.initElements(driver, this);
     }
 

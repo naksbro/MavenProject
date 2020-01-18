@@ -1,7 +1,7 @@
 package io.techleadacademy.zzStuff.Jan12;
 
 import com.github.javafaker.Faker;
-import io.techleadacademy.util.UtilityMethods;
+import io.techleadacademy.util.SeleniumUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class Task1 {
-    UtilityMethods utils = new UtilityMethods();
+    SeleniumUtils utils = new SeleniumUtils();
     WebDriver driver = utils.webDriverSetup("https://www.phptravels.net/index.php");
     Faker faker = new Faker();
     String[] fakes = {faker.name().firstName(), faker.name().lastName(), faker.phoneNumber().cellPhone(),

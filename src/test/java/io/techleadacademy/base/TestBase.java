@@ -15,6 +15,10 @@ public class TestBase {
     public static WebDriver driver = null;
     public static final String propertyPath = "src/test/java/io/techleadacademy/resources/conf/configuration.properties";
 
+    public TestBase () {
+        getDriver();
+    }
+
     @BeforeMethod
     public void setUp () {
         initialize("chrome");
@@ -61,5 +65,11 @@ public class TestBase {
             driver.quit();
             driver = null;
         }
+    }
+
+    public WebDriver getDriver () {
+        if (driver != null) return driver;
+        initialize(ConfigReader.readProperty(propertyPath,"browser"));
+        return driver;
     }
 }

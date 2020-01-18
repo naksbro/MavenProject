@@ -1,6 +1,6 @@
 package io.techleadacademy.zzStuff.testNGJan1120;
 
-import io.techleadacademy.util.UtilityMethods;
+import io.techleadacademy.util.SeleniumUtils;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.testng.Assert;
@@ -64,7 +64,7 @@ public class TestTags {
     @Test(invocationCount = 3, invocationTimeOut = 5000) // runs specified test multiple times
     public void logInPerformanceTest () {
         System.out.println("Checking log in time");
-        new UtilityMethods().sleep(1000);
+        new SeleniumUtils().sleep(1000);
     }
 
     @Test(invocationCount = 10, skipFailedInvocations = true)

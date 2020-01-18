@@ -5,7 +5,8 @@ import io.techleadacademy.pages.MyAccountPage;
 import io.techleadacademy.pages.RegisterPage;
 import io.techleadacademy.testData.NewUserInfo;
 import io.techleadacademy.util.DateUtils;
-import io.techleadacademy.util.UtilityMethods;
+import io.techleadacademy.util.Screenshots;
+import io.techleadacademy.util.SeleniumUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -14,15 +15,16 @@ public class MyAccountPageTest extends MyAccountPage {
     public void verifyMyAccount () {
         HomePage home = new HomePage();
         RegisterPage reg = new RegisterPage();
-        MyAccountPage acc = new MyAccountPage();
         NewUserInfo user = new NewUserInfo();
-        UtilityMethods util = new UtilityMethods();
         DateUtils date = new DateUtils();
+        Screenshots.captureScreenShot("shot1");
         home.clickSignUp();
         reg.fillSignUpForm();
         reg.clickSignUpBtn();
-        util.sleep(2000);
-        Assert.assertEquals(acc.actualHi.getText(),"Hi, "+user.getFirstName()+" "+user.getLastName());
-        Assert.assertEquals(acc.actualDate.getText(), date.getCurrentFormattedDate());
+        SeleniumUtils.sleep(2000);
+        Screenshots.captureScreenShot("shot2");
+        Assert.assertEquals(home.getTitle(),"My Account");
+        Assert.assertEquals(actualHi.getText(),"Hi, "+user.getFirstName()+" "+user.getLastName());
+        Assert.assertEquals(actualDate.getText(), date.getCurrentFormattedDate());
     }
 }
